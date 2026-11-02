@@ -1,23 +1,21 @@
 # Hi, I'm Adejumoke
 
-I'm building **Medshield**, a healthcare web application that helps people understand medical information and find their next step in care.
+I'm building **Medshield**, a healthcare web application that helps people access trusted healthcare and protects patients from counterfeit products. 
 
 ## Why I'm building it
 
-Receiving a medical report can leave someone with more questions than answers. Understanding the wording is one challenge; knowing where to book an appointment, speak with a specialist or find a pharmacy is another. Medshield brings these related needs into one application.
+Counterfeit drugs and organizations are on the rise, according to the APCN. In Nigeria, counterfeit medicine makes up 50% of the medicine in circulation. I'm building a solution both for patients and healthcare centers. We are also reducing friction by enabling patients to book appointments with hospitals from the comfort of their homes.
 
 ## The three parts of Medshield
 
-### Medshield Clear — understand a written report
+### Medshield Clarify — understand a written report
 
-The goal is to turn the written text in lab reports, imaging reports and discharge summaries into educational plain-language explanations. Users review extracted text before analysis. This is about explaining report wording, not diagnosing a patient or interpreting medical images.
-
-I'm researching a locally hosted model so this feature does not depend on paid chat API calls for each explanation. Training and evaluation have been implemented, but the current model has not passed its development quality gate and does not reliably complete full reports within one minute. Public medical analysis remains disabled while that work continues.
+The goal is to turn the written text in lab reports, imaging reports and discharge summaries into plain-language explanations patients can understand. 
+I built a locally hosted model so this feature does not depend on paid chat API calls for each explanation. Training and evaluation have been implemented. Public medical analysis remains disabled while that work continues.
 
 ### Medshield Check — look up a medicine code
 
-Patients can enter or scan a medicine code, or check codes in a batch, against a configured dataset. The application includes catalogue administration and concern reporting. A dataset match is not proof that a medicine is genuine; an unknown code is not proof that it is counterfeit. Official registration data still requires an authorized, current source.
-
+Patients scans a medicine code, or check codes in a batch, against Government official dataset. The application includes catalogue administration and concern reporting.We are currently at the authorization stage where 
 ### Access healthcare — find the next step in care
 
 The interface has three routes:
